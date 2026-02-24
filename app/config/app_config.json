@@ -1,0 +1,19 @@
+{
+  "registry_path": "registry.yaml",
+  "runs_dir": "app/runs_app",
+  "models_dir": "app/models",
+  "assets_dir": "app/assets",
+  "config_dir": "app/config",
+
+  "image_size": 224,
+  "confidence_threshold": 0.60,
+  "top2_margin_pp": 0.05,
+  "batch_size": 16,
+
+  "tf_allow_memory_growth": true,
+  "tf_warmup_on_start": true,
+  "tf_num_threads": null,
+
+  "export_full_prob_vector": true,
+  "theme": "auto"
+}

@@ -1,0 +1,10 @@
+{
+  "class_to_idx": {
+    "ef8": 0,
+    "ef9": 1
+  },
+  "idx_to_class": {
+    "ef8": 0,
+    "ef9": 1
+  }
+}
