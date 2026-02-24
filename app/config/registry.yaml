@@ -1,0 +1,16 @@
+# registry.yaml
+
+species:
+  Ceratitis:
+    display_name: "Ceratitis capitata"
+    models:
+      refit:
+        name: "Refit (Ceratitis)"
+        path: "app/models/ceratitis/refit_model.keras"         
+        classes: "app/models/ceratitis/classes.json"
+        description: "Modelo reentrenado (base)."
+      finetune_short:
+        name: "Fine-tune corto (Ceratitis)"
+        path: "app/models/ceratitis/finetune_short.keras"       
+        classes: "app/models/ceratitis/classes.json"
+        description: "Fine-tune corto para ajuste final."
