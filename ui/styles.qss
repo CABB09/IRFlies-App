@@ -1,4 +1,0 @@
-QMainWindow { background: #fafafa; }
-QLabel { font-size: 13px; }
-QPushButton { padding: 6px 10px; }
-QTableWidget::item { padding: 6px; }
