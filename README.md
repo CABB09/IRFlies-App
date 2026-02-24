@@ -20,4 +20,7 @@ La app está organizada en módulos:
 ```bash
 cd D:\IRFLies-App
 .\.venv\Scripts\activate
+
+python scripts/download_models.py
+
 python -m app.main
