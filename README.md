@@ -1,8 +1,6 @@
 # IRFLies-App 🪰
 
-Aplicación de escritorio (PySide6 + TensorFlow) para **clasificar la edad de moscas** de dos especies:
-- *Anastrepha ludens*
-- *Ceratitis capitata*
+Aplicación de escritorio (PySide6 + TensorFlow) para **clasificar la edad de moscas** de *Ceratitis capitata*.
 
 ## Estructura general
 La app está organizada en módulos:
@@ -24,3 +22,4 @@ cd D:\IRFLies-App
 python scripts/download_models.py
 
 python -m app.main
+
